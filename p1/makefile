@@ -1,4 +1,4 @@
 
-all: multiples.c
-	gcc multiples.c -o multiples.run
+all: main.c multiple.c
+	gcc -Wall main.c multiple.c -o solution.run
 
