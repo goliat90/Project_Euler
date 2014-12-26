@@ -1,4 +1,4 @@
 
 all: main.c multiple.c
-	gcc -Wall main.c multiple.c -o solution.run
+	gcc -Wall -std=c99 main.c multiple.c -o solution.run
 
